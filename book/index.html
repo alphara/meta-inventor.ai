@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meta Inventor Artificial Intelligence</title>
+  <style>
+    div {
+      border: solid 1px grey;
+    }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script src="node_modules/systemjs/dist/system.src.js"></script>
+<script>
+  (function () {
+    System.config({
+      transpiler: 'plugin-babel',
+      map: {
+        components: 'components',
+        'react': 'node_modules/react/umd/react.development.js',
+        'react-dom': 'node_modules/react-dom/umd/react-dom.development.js',
+        'prop-types': 'node_modules/prop-types/prop-types.js',
+        'plugin-babel': 'node_modules/systemjs-plugin-babel/plugin-babel.js',
+        'systemjs-babel-build': 'node_modules/systemjs-plugin-babel/systemjs-babel-browser.js',
+      },
+      packages: {
+        'components': {
+          defaultExtension: 'js'
+        },
+      },
+      meta: {
+        '*.js': {
+          babelOptions: {
+            react: true
+          }
+        }
+      }
+    });
+
+    System.import('index.js').catch(
+      function (error) {
+        console.log(error);
+      }
+    );
+  })();
+</script>
+</body>
+</html>
