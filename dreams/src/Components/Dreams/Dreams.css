@@ -92,7 +92,7 @@
   left: 100px;
 }
 
-.Dreams__FreddyMercury {
+.Dreams__FreddieMercury {
   width: 100px;
   position: absolute;
   top: 70px;
@@ -125,4 +125,57 @@
   position: absolute;
   top: 70px;
   left: 600px;
+}
+
+.Dreams__MyBodyGraph {
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 1100px;
+}
+
+.Dreams__MiltonErikson {
+  width: 100px;
+  /* max-height: 70px; */
+  /* object-fit: contain; */
+  position: absolute;
+  top: 0px;
+  left: 1200px;
+}
+
+.Dreams__Osho {
+  width: 100px;
+  /* max-height: 70px; */
+  /* object-fit: contain; */
+  position: absolute;
+  top: 0px;
+  left: 1300px;
+}
+
+.Dreams__SteveJobs {
+  width: 100px;
+  position: absolute;
+  top: 70px;
+  left: 800px;
+}
+
+.Dreams__Neuron {
+  width: 100px;
+  position: absolute;
+  top: 140px;
+  left: 0px;
+}
+
+.Dreams__QuantumComputer {
+  width: 100px;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+}
+
+.Dreams__Investment {
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
 }
