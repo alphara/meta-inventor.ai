@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Book from './Book';
-import Dreams from './Dreams';
+import Book from './Components/Book/Book';
+import Dreams from './Components/Dreams/Dreams';
 
 class App extends Component {
   render() {
